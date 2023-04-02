@@ -1,0 +1,142 @@
+* {
+    color: #545871;
+}
+a {
+    text-decoration: none;
+    color: #545871;
+}
+
+
+#form-container {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.logo {
+  margin-top: 30px;
+  width: 30px;
+  position: absolute;
+  bottom: 80%;
+  left: 10%;
+}
+
+/* ul-styling to target bullet point */
+
+ul {
+  list-style-type: none;
+}
+
+.ul-small {
+  font-size: 1rem;
+  color: #545871;
+}
+
+/* FORM STYLING */
+
+
+/* posstions of the form on screen */
+#form-container {
+  width: 500px;
+  position: absolute;
+  left: 32%;
+  right: 50%;
+  margin-top: 10%;
+  min-height: 59vh;
+}
+
+@media screen and (max-width: 992px) {
+  #form-container {
+    position: absolute;
+  left: 2%;
+  width: 500px;
+  }
+}
+
+
+.form {
+  text-align: left;
+  justify-content: center;
+  margin: 100px 60% 100px 40%;
+}
+
+.form-left {
+  position: absolute;
+  left: 10px;
+  top: 30%;
+}
+
+.form-left-container {
+    background-color: #D7C0AE;
+    position: absolute;
+    height: 100%;
+    width: 40%;
+    padding-top: 200px;
+    top: 0px;
+    left: 0px;
+}
+
+
+/* form right  */
+
+
+.form-right-container {
+    background-color: #E9dbda;
+    position: absolute;
+    height: 100%;
+    width: 60%;
+    top: 0px;
+    right: 0px;
+}
+
+
+h1 {
+  font-size: 1.2rem;
+  font-family: sans-serif;
+  font-weight: bold;
+  position: absolute;
+  padding: 30px 10px 20px;
+  margin-bottom: 5%;
+}
+
+.right-con-inputs {
+    margin-top: 38%;
+    font-size: 0.5rem;
+    position: absolute;
+    height: 50px;
+    left: 10px;
+}
+
+/* P STYLES */
+
+.p-inputs {
+    margin-right: 8px;
+    margin-left: 3px;
+    margin-top: 10px;
+    font-size: 0.8rem;
+    top: 23%;
+    
+}
+
+#a {
+    position: absolute;
+    display: flex;
+    right: 70%;
+}
+
+#b {
+    position: absolute;
+    display: flex;
+    right: 25%;
+}
+
+.phone-test-ad {
+    padding-top: 20px;
+    font-size: 0.8rem;
+}
+
